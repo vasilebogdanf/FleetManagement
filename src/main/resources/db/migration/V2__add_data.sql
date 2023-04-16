@@ -1,13 +1,13 @@
-insert into Company(id,name) values (1,"CIT One");
-insert into user(name,password,company_id) values ("Vasile Bogdan Florin","123",1);
-insert into user(name,password,company_id) values ("Bisca Alexandra","abc",1);
-insert into vehicle (registration_Number, company_id) values ("B-100-CIT",1);
-insert into vehicle (registration_Number, company_id) values ("B-101-CIT",1);
-insert into vehicle (registration_Number, company_id) values ("B-102-CIT",1);
-insert into vehicle (registration_Number, company_id) values ("B-103-CIT",1);
-insert into vehicle (registration_Number, company_id) values ("B-104-CIT",1);
-insert into vehicle (registration_Number, company_id) values ("B-105-CIT",1);
-insert into vehicle (registration_Number, company_id) values ("B-106-CIT",1);
+insert into Company(id,name) values (1,"Speed Transport SRL");
+insert into user(name,password,company_id) values ("Ionescu George","123",1);
+insert into user(name,password,company_id) values ("Andreea Gheorghe","abc",1);
+insert into vehicle (registration_Number, company_id) values ("B-100-ABC",1);
+insert into vehicle (registration_Number, company_id) values ("B-101-ABC",1);
+insert into vehicle (registration_Number, company_id) values ("B-102-ABC",1);
+insert into vehicle (registration_Number, company_id) values ("B-103-ABC",1);
+insert into vehicle (registration_Number, company_id) values ("B-104-ABC",1);
+insert into vehicle (registration_Number, company_id) values ("B-105-ABC",1);
+insert into vehicle (registration_Number, company_id) values ("B-106-ABC",1);
 
 INSERT INTO `fleet_management`.`technical_info`
 (`id`, `brand`, `model`, `mileage`, `status`, `cubic_capacity`,
